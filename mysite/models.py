@@ -13,4 +13,4 @@ class Attendee (models.Model):
     date2_confirmed = models.DateField(blank=True)
 
     def __str__(self):
-        return self.name
+        return self.fullname
