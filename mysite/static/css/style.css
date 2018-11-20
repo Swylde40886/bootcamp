@@ -1,0 +1,353 @@
+
+body {
+  margin-bottom: 0;
+  max-width: 100VW;
+  overflow-x: hidden !important;
+}
+
+
+h1 {
+  font-family: 'Cinzel', serif;
+  color: #FFF !important;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #676770;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #676770;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navbar {
+
+  padding-top: 10px !important;
+  padding-bottom: 10px;
+  background-color: #FFF !important;
+}
+
+.navbar-brand {
+
+  font-weight: light;
+  font-size: 25px;
+  letter-spacing: 4px;
+  line-height: 25px;
+  color: black;
+}
+.nav-link {
+
+  font-family: 'Roboto', sans-serif;
+  margin-right: 20px;
+  font-size: 16px;
+  color:black;
+}
+
+.navbar-nav li.active > a {
+  color: #fec269 !important
+}
+
+.view {
+  height: 60vh;
+  background-image: url('../img/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-title {
+  font-size: 65px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.hero-sub-title {
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  margin-bottom: 80px;
+}
+
+.white-title{
+  color:#FFF;
+}
+
+#sub-heading {
+  font-size:18px;
+}
+
+.btn {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-right: 20px;
+  letter-spacing: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.btn-book {
+  background-color: #3b2d39;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-book:hover {
+  box-shadow: 0px 0px 2px 2px #fec269;
+  transition-duration: 0.6s
+}
+
+.btn-learn {
+  border: 1px solid white;
+  border-radius: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-learn:hover {
+  border: 1px solid #fec269;
+  color: #fec269;
+  transition-duration: 0.2s
+}
+
+#black-section {
+  background-color: #192024;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#guide-form-container {
+  color: #FFF;
+  background-color: #3B4048;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#tips-and-tricks {
+  color: #fec269;
+  margin-top: 20px;
+}
+
+#card-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.card {
+  min-height: 150px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+}
+
+#center-card {
+  box-shadow: 0px 0px 2px 2px #fec269;
+  z-index: 10;
+  position: absolute;
+  transform: scale(1.2);
+}
+
+#parralax {
+  padding: 100px;
+  background: url(../img/parralax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+}
+
+#faq {
+  border-radius: 4px;
+  background-color: #3B4048;
+  color: #FFF;
+  opacity: 0.96;
+  filter: alpha(opacity=50);
+}
+
+.line {
+  border-bottom: 2px solid #fec269;
+  max-width: 60%;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #fec269;
+}
+
+.card {
+  border: 0;
+}
+
+.card-footer {
+  border: 0;
+  background: transparent
+}
+
+.card-steps {
+  margin: 0;
+  height: 425px;
+  width: auto;
+  border: 0.2px solid #8E8E9C;
+}
+.card-steps h5 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3px;
+    font-size: 25px
+}
+
+.card-steps p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card-steps:hover {
+  box-shadow: 0px 0px 2px 2px #fec269;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card-plans img {
+  min-width: 324px;
+  min-height: 430px;
+}
+
+.card-plan {
+  position: relative;
+  background-color: transparent;
+  color: #FFF;
+  height: auto
+}
+
+.card-plan p {
+  font-size: 16px;
+  border: 0;
+}
+
+.card-plan-title {
+  font-size: 27px;
+  letter-spacing: 3px;
+}
+
+.price {
+  color: #fec269
+}
+
+.card-footer {
+  bottom 0px;
+}
+
+#grey-section {
+  background-color: #192024;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#about-us-jpg{
+  width: 500px;
+  height: 350px;
+}
+
+.plain-header {
+  color: #8E8E9C !important;
+  margin-bottom: 25px;
+}
+
+.open {
+  font-family: 'Open Sans', sans-serif;
+  color: #8E8E9C;
+  font-size: 18px;
+}
+
+.motivational p {
+  color: #fec269;
+  font-size: 22px !important;
+}
+
+.motivational img {
+  border: 10px solid white;
+  width: 500px
+}
+
+.footer {
+  font-weight: 300;
+}
+
+.footer a {
+  border-bottom: 1px solid black;
+
+}
+
+#copyright-section {
+  background-color: #192024;
+  color: #fff;
+  padding: 40px;
+  bottom: 0
+}
+
+.form-check-label {
+    color: #FFF;
+}
+
+.danger {
+    text-center
+}
+.success {
+    text-center
+}
+
+@media (max-width:1000px){
+  .hero-title {
+    font-size: 37px;
+  }
+}
+@media (max-width:510px){
+  .hero-title {
+    font-size: 30px;
+  }
+}
+@media (max-width:440px){
+  .navbar-brand{
+    font-size: 18px;
+  }
+  .hero-title {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+}
+  @media (max-width:375px){
+    .navbar-brand{
+      font-size: 14px;
+    }
+    .hero-title {
+      font-size: 20px;
+    }
+    .hero-sub-title{
+      font-size: 14px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+
+  }
