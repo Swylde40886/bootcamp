@@ -16,7 +16,7 @@ function create_post() {
     $.ajax({
         url : "/",
         type : "POST", // http method
-        data : {     name : $('#name').val(),
+        data : {     fullname : $('#fullname').val(),
                      email : $('#email').val(),
                      date1 : my_date1,
                      date2 : my_date,
@@ -25,7 +25,7 @@ function create_post() {
                      },
 
         success : function(json) {
-            $('#name').val('');
+            $('#fullname').val('');
             $('#email').val('');
             $('#materialUnchecked').attr('checked', false);
             console.log("success", $('#materialUnchecked'), $('#materialUnchecked1')); // another sanity check
